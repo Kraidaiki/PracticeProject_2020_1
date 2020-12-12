@@ -1,3 +1,27 @@
 .btn {
-  background-color: red;
+  display: inline-block;
+  vertical-align: top;
+  padding: 1rem 2rem;
+
+  background: none;
+  border: 0;
+  border-radius: $radius_sm;
+
+  font-size: 1rem;
+  line-height: 1.1;
+  font-weight: 500;
+  color: $black;
+  text-decoration: none;
+
+  transition: background 0.1s linear, color 0.1s linear;
+
+  &--pink {
+    border: 2px solid $pink;
+
+    &:hover {
+      color: $white;
+      background-color: $pink;
+    }
+
+  }
 }

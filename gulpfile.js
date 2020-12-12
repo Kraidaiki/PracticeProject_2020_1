@@ -30,13 +30,13 @@ var path = {
         html: "_sourse/*.html",
         js: "_sourse/js/*.js",
         css: "_sourse/sass/style.scss",
-        images: "_sourse/img/**/*.{jpg,png,svg,gif,ico}"
+        images: "_sourse/images/**/*.{jpg,png,svg,gif,ico}"
     },
     watch: {
         html: "_sourse/**/*.html",
         js: "_sourse/js/**/*.js",
         css: "_sourse/sass/**/*.scss",
-        images: "_sourse/img/**/*.{jpg,png,svg,gif,ico}"
+        images: "_sourse/images/**/*.{jpg,png,svg,gif,ico}"
     },
     clean: "./_assets"
 }

@@ -32,11 +32,19 @@ body {
 
 /* Blocks */
 
+@import 'blocks/_page';
+@import 'blocks/_content';
 @import 'blocks/_header';
 @import 'blocks/_btn';
 @import 'blocks/_logo';
 @import 'blocks/_nav';
 @import 'blocks/_lang';
+@import 'blocks/_footer';
+@import 'blocks/_intro';
+@import 'blocks/_contacts';
+@import 'blocks/_author';
+@import 'blocks/_circle';
+
 
 /* Vendor */
 

@@ -6,9 +6,16 @@
 </head>
 
 <body>
-    {{> header}}
-    {{> body }}
 
+    <div class="page">
+        {{> header}}
+
+    <div class="content">
+        {{> body }}
+</div>
+
+        {{> footer }}
+    </div>
 
     <script src="js/app.min.js"></script>
 </body>
