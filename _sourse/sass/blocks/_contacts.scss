@@ -2,6 +2,10 @@
     margin: 1rem 0 0;
     padding: 0;
     list-style: none;
+
+    &--modal {
+        margin-top: .2rem;
+    }
 }
 
 .contacts__item {
@@ -28,6 +32,15 @@
     &:last-child {
 
         &::after {
+            display: none;
+        }
+    }
+
+    .contacts--modal & {
+        display: block;
+        margin-right: 0;
+
+        &:after {
             display: none;
         }
     }
